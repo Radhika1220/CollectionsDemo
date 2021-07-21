@@ -22,6 +22,9 @@ namespace CollectionsDemo
                 case "4":
                     Queue.QueueDemo();
                     break;
+                case "5":
+                    Dictionary.DictionaryDemo();
+                    break;
                 default:
                     Console.WriteLine("Enter a valid option!!!");
                     break;
