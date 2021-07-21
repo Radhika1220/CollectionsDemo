@@ -25,6 +25,9 @@ namespace CollectionsDemo
                 case "5":
                     Dictionary.DictionaryDemo();
                     break;
+                case "6":
+                    HashSet.HashSetDemo();
+                    break;
                 default:
                     Console.WriteLine("Enter a valid option!!!");
                     break;
