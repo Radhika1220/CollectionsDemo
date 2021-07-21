@@ -19,6 +19,9 @@ namespace CollectionsDemo
                 case "3":
                     Stack.StackDemo();
                     break;
+                case "4":
+                    Queue.QueueDemo();
+                    break;
                 default:
                     Console.WriteLine("Enter a valid option!!!");
                     break;

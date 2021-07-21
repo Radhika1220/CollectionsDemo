@@ -21,13 +21,16 @@ namespace CollectionsDemo
 
             //Count returns number of elements present in stack
             Console.Write("\nNumber of elements in Stack: {0}\n", myStack.Count);
+
             //Contains-returns true if element is present
             Console.WriteLine("{0} is ",myStack.Contains(1));
+
             while (myStack.Count > 0)
             {
                 //Pop the element and print it
                 Console.Write(myStack.Pop() + " ");
             }
+
 
             Console.Write("\nNumber of elements in Stack: {0}\n", myStack.Count);
 
