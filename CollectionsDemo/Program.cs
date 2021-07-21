@@ -7,7 +7,20 @@ namespace CollectionsDemo
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Collections Demo Problem!!!");
-            List.ListDemo();
+            Console.WriteLine("Enter the option ");
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    List.ListDemo();
+                    break;
+                case "2":
+                    SortedList.SortedListDemo();
+                    break;
+                default:
+                    Console.WriteLine("Enter a valid option!!!");
+                    break;
+            }
+
         }
     }
 }
