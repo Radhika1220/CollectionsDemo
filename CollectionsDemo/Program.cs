@@ -16,6 +16,9 @@ namespace CollectionsDemo
                 case "2":
                     SortedList.SortedListDemo();
                     break;
+                case "3":
+                    Stack.StackDemo();
+                    break;
                 default:
                     Console.WriteLine("Enter a valid option!!!");
                     break;
